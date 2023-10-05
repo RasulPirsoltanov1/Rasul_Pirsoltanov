@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 html {
@@ -36,7 +36,6 @@ a {
 
 #navbar ul a {
     padding: 0.5rem;
-    transition: all 1.5s;
 }
 
 #navbar ul a:hover {
@@ -45,6 +44,7 @@ a {
 }
 
 #home {
+    background-color: azure;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -62,4 +62,23 @@ a {
 
 #home .name h2{
     margin-bottom: 0.75rem;
+}
+#home .name p{
+   opacity: 0.8;
+   font-style: italic;
+}
+#projects{
+    padding: 2rem 0;
+    color: white;
+}
+
+#projects .item i{
+    color: yellow;
+    margin: 2rem 0;
+    font-size: 3rem;
+}
+#projects article{
+    font-size: 0.7rem;
+    width: 30%;
+    margin: 1rem auto;
 }

@@ -28,3 +28,36 @@
     margin: 0 auto;
     max-width: 1100px;
 }
+
+/* Buttons */
+
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    border-radius: 1rem;
+    letter-spacing: 0.1px;
+}
+
+.btn-primary {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+.btn-primary:hover{
+    color: blueviolet;
+    background-color: white;
+}
+.btn-dark {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.btn-dark:hover{
+    color: black;
+    background-color: white;
+}
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
