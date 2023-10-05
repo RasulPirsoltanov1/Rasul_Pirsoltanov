@@ -1,0 +1,11 @@
+@media(max-width:667px){
+    #navbar{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    #navbar ul{
+        padding-top: 1rem;
+        flex-direction: column;
+    }
+  
+}

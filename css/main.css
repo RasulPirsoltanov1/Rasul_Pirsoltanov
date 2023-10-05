@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+
+html {
+    font-family: 'Pixelify Sans', cursive;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    min-height: 5rem;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#navbar ul li {
+    margin: 0.75rem;
+}
+
+#navbar ul a {
+    padding: 0.5rem;
+    transition: all 1.5s;
+}
+
+#navbar ul a:hover {
+    background-color: rgba(16, 175, 43, 0.664);
+    border-radius: 2rem;
+}
+
+#home {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    border-radius: 0.2rem;
+}
+
+#home img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%; /* Tüm köşeleri yuvarlayarak tam bir oval elde ediyoruz */
+}
+
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
